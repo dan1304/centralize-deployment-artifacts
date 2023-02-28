@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   pastebin:
-    image: docker.io/tuyentd/pastebin:49
+    image: docker.io/tuyentd/pastebin:50
     container_name: pastebin
     volumes:
       - $DOCKERDIR/pastebin:/var/lib/pastebin
